@@ -122,6 +122,8 @@ export async function upgradeToSeller({
       showError(message || "Upgrade failed.");
       throw { message, errors: result?.errors || {} };
     }
+    localStorage.setItem("authToken", result.token);
+    localStorage.setItem("authUser", JSON.stringify(result.user));
     showSuccess("You have been upgraded to a seller!");
     // Optionally: Save user/seller in localStorage or context if you need to persist
     return {

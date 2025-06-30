@@ -36,7 +36,7 @@ const BecomeASellerForm = () => {
     try {
       await upgradeToSeller(form);
       setSuccessMessage("Your request to become a seller has been submitted!");
-      navigate("/s");
+      navigate("/");
     } catch (err) {
       setGeneralError(err.message || "Upgrade failed.");
       setFieldErrors(err.errors || {});

@@ -6,52 +6,52 @@ import Slider from "react-slick";
 const categories = [
   {
     name: "Category 1",
-    img: "assets/images/thumbs/feature-img1.png",
+    img: "assets/images/categories/electronics.jpg",
     products: 125,
   },
   {
     name: "Category 2",
-    img: "assets/images/thumbs/feature-img2.png",
+    img: "assets/images/categories/food.png",
     products: 125,
   },
   {
     name: "Category 3",
-    img: "assets/images/thumbs/feature-img3.png",
+    img: "assets/images/categories/furniture.png",
     products: 125,
   },
   {
     name: "Category 4",
-    img: "assets/images/thumbs/feature-img4.png",
+    img: "assets/images/categories/furniture2.jpg",
     products: 125,
   },
   {
     name: "Category 5",
-    img: "assets/images/thumbs/feature-img5.png",
+    img: "assets/images/categories/device.jpeg",
     products: 125,
   },
   {
     name: "Category 6",
-    img: "assets/images/thumbs/feature-img6.png",
+    img: "assets/images/categories/women_fashion.jpg",
     products: 125,
   },
   {
     name: "Category 7",
-    img: "assets/images/thumbs/feature-img7.png",
+    img: "assets/images/categories/men_fashion.jpg",
     products: 125,
   },
   {
     name: "Category 8",
-    img: "assets/images/thumbs/feature-img8.png",
+    img: "assets/images/categories/electronics.jpg",
     products: 125,
   },
   {
     name: "Category 9",
-    img: "assets/images/thumbs/feature-img9.png",
+    img: "assets/images/categories/takeaways.png",
     products: 125,
   },
   {
     name: "Category 10",
-    img: "assets/images/thumbs/feature-img10.png",
+    img: "assets/images/categories/men_fashion.jpg",
     products: 125,
   },
 ];
